@@ -93,8 +93,27 @@ function toggleMusic() {
   }
 }
 
+/*
+ * Leaving the page (tab switch, app switch, screen lock) stops the music. It comes back on
+ * return only if it was playing when the guest left -- a music the guest paused stays paused.
+ */
+let resumeOnReturn = false
+
+function onVisibilityChange() {
+  const el = audioEl.value
+  if (!el) return
+  if (document.hidden) {
+    resumeOnReturn = !el.paused
+    if (resumeOnReturn) el.pause()
+  } else if (resumeOnReturn) {
+    resumeOnReturn = false
+    playMusic()
+  }
+}
+
 onMounted(() => {
   playMusic()
+  document.addEventListener('visibilitychange', onVisibilityChange)
 
   observer = new IntersectionObserver(
     (entries) => {
@@ -117,6 +136,7 @@ onMounted(() => {
 })
 
 onBeforeUnmount(() => {
+  document.removeEventListener('visibilitychange', onVisibilityChange)
   audioEl.value?.pause()
   if (observer) observer.disconnect()
 })
