@@ -1,0 +1,58 @@
+:root {
+  /*
+   * colours -- sampled off the two frames' own fills and text nodes.
+   * useWedding() overwrites the theme hooks (marked) from the API's theme_config.
+   */
+  --paper: #e7dfd5; /* the cover's paper texture, averaged -- the ground while it decodes */
+  --sheet: #efe8de; /* Frame 270's own fill: the invitation sheet's ground (theme hook: bg_body) */
+  --bg-body: #efe8de;
+
+  --maroon: #822617; /* the couple's title on the cover and the hero (theme hook: secondary) */
+  --umber: #531f06; /* the cover's guest block and "Click to open" */
+  --rose: #b03b65; /* dates, Dresscode / Our Dearest Memories / Rsvp (theme hook: primary) */
+  --rose-deep: #a43759; /* every pill button, and the closing copy */
+  --magenta: #bf2983; /* "And", the venue lines, the credit bar */
+  --berry: #ab205e; /* the gift accounts */
+  --name-pink: #b94765; /* the couple's names and parents */
+  --journey: #b72d76; /* "journey together" */
+  --sage: #4e685c; /* event titles, times, View Maps, Wedding Gift / Wishes (theme hook: accent) */
+  --olive: #6a7c4b; /* the Instagram pill */
+  --forest: #286549; /* the wish cards */
+  --greeting-ink: #2c4b34;
+  --countdown-ink: #aa3a3c;
+  --save-date-ink: #700f06;
+  --quote-ink: #c04935;
+  --field-rule: #67764d;
+
+  /*
+   * fonts. Roben Elegante, Activists, Perpetua, Rose Gard and Kaleagnetta are self-hosted (@font-face in style.css);
+   * the rest ship from fontsource. Every face of the design that is not a
+   * system font has a file.
+   */
+  --font-script: "Roben Elegante", cursive;
+  --font-serif: "Cormorant Infant", serif;
+  --font-lancelot: "Lancelot", serif;
+  --font-pinyon: "Pinyon Script", cursive;
+  --font-ibarra: "Ibarra Real Nova", serif;
+  --font-greeting: "Perpetua", serif;
+  --font-caps: "Activists", serif;
+  --font-and: "Rose Gard", serif;
+  --font-hand: "Kaleagnetta", cursive;
+  --font-cinzel: "Cinzel", serif;
+  /*
+   * Times New Roman is the design's own face. It is not ours to ship, so the stack asks the
+   * device for it first and falls back to Tinos, which is metric-compatible.
+   */
+  --font-times: "Times New Roman", "Tinos", Times, serif;
+  --font-arabic: "Times New Roman", "Amiri", serif;
+  --font-bellefair: "Bellefair", serif;
+  --font-abhaya: "Abhaya Libre", serif;
+  --font-garamond: "EB Garamond", serif;
+  --font-sans: system-ui, sans-serif;
+
+  /* design frames -- cover = Frame 271 (3014:538), body = Frame 270 (3014:151) */
+  --frame-w: 596;
+  --frame-h: 1183;
+  --body-h: 15058;
+  --card-max: 430px;
+}

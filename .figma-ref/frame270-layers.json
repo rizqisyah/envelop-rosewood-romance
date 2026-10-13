@@ -1,0 +1,2658 @@
+{
+ "frame": {
+  "id": "3014:151",
+  "name": "Frame 270",
+  "w": 596,
+  "h": 15058,
+  "fill": "#efe8de"
+ },
+ "bands": [
+  {
+   "name": "hero",
+   "top": 0,
+   "height": 1160
+  },
+  {
+   "name": "countdown",
+   "top": 1160,
+   "height": 1070
+  },
+  {
+   "name": "greeting",
+   "top": 2230,
+   "height": 170
+  },
+  {
+   "name": "groom",
+   "top": 2400,
+   "height": 1290
+  },
+  {
+   "name": "bride",
+   "top": 3690,
+   "height": 1060
+  },
+  {
+   "name": "quote",
+   "top": 4750,
+   "height": 1080
+  },
+  {
+   "name": "akad",
+   "top": 5830,
+   "height": 1200
+  },
+  {
+   "name": "resepsi",
+   "top": 7030,
+   "height": 1160
+  },
+  {
+   "name": "dresscode",
+   "top": 8190,
+   "height": 840
+  },
+  {
+   "name": "gallery",
+   "top": 9030,
+   "height": 1170
+  },
+  {
+   "name": "gift",
+   "top": 10200,
+   "height": 790
+  },
+  {
+   "name": "wishes",
+   "top": 10990,
+   "height": 914
+  },
+  {
+   "name": "rsvp",
+   "top": 11904,
+   "height": 1156
+  },
+  {
+   "name": "closing",
+   "top": 13060,
+   "height": 1998
+  }
+ ],
+ "layers": [
+  {
+   "z": 1,
+   "id": "3023:155",
+   "name": "Open (14) 3",
+   "kind": "art",
+   "src": "f8735",
+   "box": [
+    146,
+    5971,
+    304,
+    304
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "akad"
+  },
+  {
+   "z": 2,
+   "id": "3026:327",
+   "name": "Desain tanpa judul (40) 1",
+   "kind": "art",
+   "src": "184a6",
+   "box": [
+    275,
+    3697,
+    625,
+    625
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 3,
+   "id": "3026:326",
+   "name": "Desain tanpa judul (40) 1",
+   "kind": "art",
+   "src": "184a6",
+   "box": [
+    -313,
+    2387,
+    625,
+    625
+   ],
+   "band": "greeting"
+  },
+  {
+   "z": 4,
+   "id": "3014:440",
+   "name": "image 41",
+   "kind": "art",
+   "src": "73d06",
+   "box": [
+    -207,
+    4844,
+    436.196,
+    428.548
+   ],
+   "inner": [
+    351,
+    339.35
+   ],
+   "rot": 17.34,
+   "crop": [
+    0,
+    0,
+    100,
+    155.59
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 5,
+   "id": "3014:441",
+   "name": "image 59",
+   "kind": "art",
+   "src": "73d06",
+   "box": [
+    348,
+    4844,
+    436.196,
+    428.548
+   ],
+   "inner": [
+    351,
+    339.35
+   ],
+   "rot": 162.66,
+   "fy": true,
+   "crop": [
+    0,
+    0,
+    100,
+    155.59
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 6,
+   "id": "3023:275",
+   "name": "download (42) 2",
+   "kind": "art",
+   "src": "baca6",
+   "box": [
+    -42,
+    -270,
+    637,
+    1132
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 7,
+   "id": "3023:272",
+   "name": "back",
+   "kind": "art",
+   "src": "5ec46",
+   "box": [
+    -53,
+    13358,
+    717,
+    1411
+   ],
+   "crop": [
+    0,
+    -31.62,
+    195.26,
+    131.64
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 8,
+   "id": "3023:268",
+   "name": "image 108",
+   "kind": "art",
+   "src": "849b0",
+   "box": [
+    0,
+    9374,
+    596,
+    322
+   ],
+   "band": "gallery"
+  },
+  {
+   "z": 9,
+   "id": "3023:259",
+   "name": "image 106",
+   "kind": "art",
+   "src": "e7302",
+   "box": [
+    469,
+    10201,
+    255,
+    569
+   ],
+   "band": "gift"
+  },
+  {
+   "z": 10,
+   "id": "3024:299",
+   "name": "image 114",
+   "kind": "art",
+   "src": "e7302",
+   "box": [
+    -135,
+    10201,
+    255,
+    569
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "gift"
+  },
+  {
+   "z": 11,
+   "id": "3023:250",
+   "name": "wood",
+   "kind": "art",
+   "src": "c941e",
+   "box": [
+    133,
+    12017,
+    330,
+    440
+   ],
+   "band": "rsvp"
+  },
+  {
+   "z": 12,
+   "id": "3018:657",
+   "name": "The Wedding of (37) 1",
+   "kind": "art",
+   "src": "827a3",
+   "box": [
+    -49,
+    5095,
+    855,
+    855
+   ],
+   "a": 0.9,
+   "band": "quote"
+  },
+  {
+   "z": 13,
+   "id": "3018:638",
+   "name": "image 2",
+   "kind": "art",
+   "src": "0e159",
+   "box": [
+    -101,
+    4757,
+    714,
+    714
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 14,
+   "id": "3018:636",
+   "name": "Regency frame element",
+   "kind": "art",
+   "src": "8f2fc",
+   "box": [
+    -176,
+    1283,
+    951,
+    951
+   ],
+   "band": "countdown"
+  },
+  {
+   "z": 15,
+   "id": "3018:631",
+   "name": "hedge bush 3",
+   "kind": "art",
+   "src": "c7a3d",
+   "box": [
+    -310,
+    578,
+    1172,
+    657
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 16,
+   "id": "3018:564",
+   "name": "hedge bush 1",
+   "kind": "skip",
+   "why": "no visible fill: get_design_context emits an empty box",
+   "band": null
+  },
+  {
+   "z": 17,
+   "id": "3018:593",
+   "name": "hedge bush 2",
+   "kind": "skip",
+   "why": "no visible fill: get_design_context emits an empty box",
+   "band": null
+  },
+  {
+   "z": 18,
+   "id": "3018:557",
+   "name": "white fantasy castle 1",
+   "kind": "art",
+   "src": "27873",
+   "box": [
+    180,
+    2433,
+    523.232,
+    655
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 19,
+   "id": "3018:594",
+   "name": "white fantasy castle 2",
+   "kind": "art",
+   "src": "27873",
+   "box": [
+    -78,
+    3697,
+    523.232,
+    655
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 20,
+   "id": "3018:558",
+   "name": "Ellipse 12",
+   "kind": "art",
+   "src": "e16f7.svg",
+   "box": [
+    312,
+    2916,
+    384,
+    214
+   ],
+   "svg": [
+    46.73,
+    26.04
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 21,
+   "id": "3018:595",
+   "name": "Ellipse 13",
+   "kind": "art",
+   "src": "b5138.svg",
+   "box": [
+    -54.24,
+    4183,
+    384,
+    214
+   ],
+   "svg": [
+    46.73,
+    26.04
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 22,
+   "id": "3018:566",
+   "name": "front",
+   "kind": "art",
+   "src": "663eb",
+   "box": [
+    5,
+    2952,
+    690.27,
+    460
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 23,
+   "id": "3018:596",
+   "name": "front",
+   "kind": "art",
+   "src": "663eb",
+   "box": [
+    -53.51,
+    4219,
+    690.27,
+    460
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 24,
+   "id": "3014:156",
+   "name": "njnjk 1",
+   "kind": "art",
+   "src": "1010a",
+   "box": [
+    -116.96,
+    5150,
+    746.279,
+    481
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 25,
+   "id": "3014:157",
+   "name": "Open (19) 7",
+   "kind": "art",
+   "src": "009a5",
+   "box": [
+    -171,
+    8950,
+    355,
+    367
+   ],
+   "inner": [
+    367,
+    355
+   ],
+   "rot": 90,
+   "crop": [
+    3.27,
+    0,
+    96.73,
+    100
+   ],
+   "band": "dresscode"
+  },
+  {
+   "z": 26,
+   "id": "3014:158",
+   "name": "Open (19) 8",
+   "kind": "art",
+   "src": "0f49d",
+   "box": [
+    418,
+    8962,
+    355,
+    355
+   ],
+   "rot": 90,
+   "fy": true,
+   "band": "dresscode"
+  },
+  {
+   "z": 27,
+   "id": "3014:162",
+   "name": "njnjk 4",
+   "kind": "art",
+   "src": "1010a",
+   "box": [
+    -108.96,
+    8480,
+    750.933,
+    484
+   ],
+   "band": "dresscode"
+  },
+  {
+   "z": 28,
+   "id": "3023:157",
+   "name": "set table",
+   "kind": "art",
+   "src": "807af",
+   "box": [
+    128,
+    8480,
+    459,
+    459
+   ],
+   "band": "dresscode"
+  },
+  {
+   "z": 29,
+   "id": "3014:172",
+   "name": "Ellipse 11",
+   "kind": "art",
+   "src": "747e3.svg",
+   "box": [
+    -146,
+    12746,
+    887,
+    1056
+   ],
+   "svg": [
+    21.36,
+    25.43
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 30,
+   "id": "3023:278",
+   "name": "Ellipse 14",
+   "kind": "art",
+   "src": "58caf.svg",
+   "box": [
+    49,
+    13426,
+    496,
+    1389
+   ],
+   "svg": [
+    17.71,
+    49.58
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 31,
+   "id": "3026:315",
+   "name": "Ellipse 15",
+   "kind": "art",
+   "src": "0a28a.svg",
+   "box": [
+    -254,
+    14552,
+    1135,
+    574
+   ],
+   "svg": [
+    42.84,
+    21.67
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 32,
+   "id": "3026:378",
+   "name": "image 117",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    -34,
+    5235,
+    180,
+    544
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "quote"
+  },
+  {
+   "z": 33,
+   "id": "3026:380",
+   "name": "image 118",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    453,
+    5235,
+    180,
+    544
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 34,
+   "id": "3026:377",
+   "name": "shield frame",
+   "kind": "art",
+   "src": "6ce53",
+   "box": [
+    42,
+    5095,
+    511,
+    800
+   ],
+   "crop": [
+    -8.02,
+    -0.02,
+    113.31,
+    100.05
+   ],
+   "band": "quote"
+  },
+  {
+   "z": 35,
+   "id": "3014:173",
+   "name": "Open (20) 1",
+   "kind": "art",
+   "src": "b83f0",
+   "box": [
+    93,
+    9197,
+    402,
+    265
+   ],
+   "crop": [
+    0.09,
+    -13.43,
+    100,
+    151.54
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "gallery"
+  },
+  {
+   "z": 36,
+   "id": "3026:334",
+   "name": "csac 3",
+   "kind": "art",
+   "src": "b95fe",
+   "box": [
+    237,
+    3870,
+    552,
+    578
+   ],
+   "crop": [
+    8.36,
+    0,
+    104.79,
+    100
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 37,
+   "id": "3014:302",
+   "name": "csac 2",
+   "kind": "art",
+   "src": "cc286",
+   "box": [
+    -54,
+    2640,
+    417,
+    527
+   ],
+   "crop": [
+    -20.86,
+    -9.3,
+    138.13,
+    109.3
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "groom"
+  },
+  {
+   "z": 38,
+   "id": "3023:277",
+   "name": "amplop",
+   "kind": "art",
+   "src": "bbdfd",
+   "box": [
+    -28,
+    14044,
+    651,
+    651
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 39,
+   "id": "3014:175",
+   "name": "dbfb",
+   "kind": "art",
+   "src": "b9e5e",
+   "box": [
+    63,
+    6302,
+    471,
+    706
+   ],
+   "inset": [
+    0,
+    4,
+    3.1,
+    "rgba(29, 115, 128, 0.39)"
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 40,
+   "id": "3023:159",
+   "name": "dbfb",
+   "kind": "art",
+   "src": "b9e5e",
+   "box": [
+    63,
+    7374,
+    471,
+    706
+   ],
+   "inset": [
+    0,
+    4,
+    3.1,
+    "rgba(29, 115, 128, 0.39)"
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 41,
+   "id": "3018:647",
+   "name": "decor",
+   "kind": "art",
+   "src": "c252d",
+   "box": [
+    112,
+    6803,
+    374,
+    204.368
+   ],
+   "crop": [
+    0,
+    -0.05,
+    100,
+    113.12
+   ],
+   "mask": [
+    "b9e5e",
+    -49,
+    -501,
+    471,
+    706
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 42,
+   "id": "3023:163",
+   "name": "decor",
+   "kind": "art",
+   "src": "c252d",
+   "box": [
+    112,
+    7875,
+    374,
+    204.368
+   ],
+   "crop": [
+    0,
+    -0.05,
+    100,
+    113.12
+   ],
+   "mask": [
+    "b9e5e",
+    -49,
+    -501,
+    471,
+    706
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 43,
+   "id": "3014:176",
+   "name": "Open (13) 1",
+   "kind": "art",
+   "src": "a07a5",
+   "box": [
+    24,
+    6273,
+    548.23,
+    763
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 44,
+   "id": "3023:164",
+   "name": "Open (13) 2",
+   "kind": "art",
+   "src": "a07a5",
+   "box": [
+    24,
+    7345,
+    548.23,
+    763
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 45,
+   "id": "3014:181",
+   "name": "Untitled_Artwork-1 1",
+   "kind": "art",
+   "src": "c1dc5",
+   "box": [
+    -11,
+    8606,
+    631.36,
+    441
+   ],
+   "band": "dresscode"
+  },
+  {
+   "z": 46,
+   "id": "3018:646",
+   "name": "Group 304",
+   "kind": "art",
+   "src": "a82ac.svg",
+   "box": [
+    112,
+    7038,
+    374,
+    131
+   ],
+   "svg": [
+    76.34,
+    26.74
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 47,
+   "id": "3014:207",
+   "name": "iris 6",
+   "kind": "art",
+   "src": "16cce",
+   "box": [
+    464,
+    6459,
+    222.963,
+    301
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 48,
+   "id": "3023:166",
+   "name": "iris 11",
+   "kind": "art",
+   "src": "16cce",
+   "box": [
+    464,
+    7531,
+    222.963,
+    301
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 49,
+   "id": "3014:214",
+   "name": "orchid 1",
+   "kind": "art",
+   "src": "dfc84",
+   "box": [
+    -93,
+    2781,
+    164.859,
+    193.732
+   ],
+   "inner": [
+    136.219,
+    172.104
+   ],
+   "rot": 10.32,
+   "band": "groom"
+  },
+  {
+   "z": 50,
+   "id": "3018:597",
+   "name": "orchid 2",
+   "kind": "art",
+   "src": "dfc84",
+   "box": [
+    529,
+    4033,
+    164.859,
+    193.732
+   ],
+   "inner": [
+    136.219,
+    172.104
+   ],
+   "rot": 169.68,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 51,
+   "id": "3014:217",
+   "name": "image 15",
+   "kind": "art",
+   "src": "73d06",
+   "box": [
+    -229,
+    494,
+    386.553,
+    550.934
+   ],
+   "inner": [
+    351,
+    528
+   ],
+   "rot": -3.95,
+   "band": "hero"
+  },
+  {
+   "z": 52,
+   "id": "3014:218",
+   "name": "image 16",
+   "kind": "art",
+   "src": "73d06",
+   "box": [
+    435,
+    494,
+    386.553,
+    550.934
+   ],
+   "inner": [
+    351,
+    528
+   ],
+   "rot": -176.05,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 53,
+   "id": "3014:220",
+   "name": "Vector 1",
+   "kind": "art",
+   "src": "4696f",
+   "box": [
+    80,
+    409,
+    437,
+    688
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 54,
+   "id": "3014:221",
+   "name": "br",
+   "kind": "art",
+   "src": "8224e",
+   "box": [
+    80,
+    409,
+    437,
+    688
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 55,
+   "id": "3014:223",
+   "name": "Open (9) 1",
+   "kind": "art",
+   "src": "7f9ae",
+   "box": [
+    -48,
+    409,
+    699,
+    699
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 56,
+   "id": "3014:226",
+   "name": "Group 1",
+   "kind": "skip",
+   "why": "an empty Paragraph frame",
+   "band": null
+  },
+  {
+   "z": 57,
+   "id": "3014:230",
+   "name": "Save The Date",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 58,
+   "id": "3014:235",
+   "name": "image 7",
+   "kind": "art",
+   "src": "6057b",
+   "box": [
+    -163,
+    269,
+    393,
+    290.5
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 59,
+   "id": "3014:238",
+   "name": "image 31",
+   "kind": "art",
+   "src": "6057b",
+   "box": [
+    424.73,
+    2818,
+    342.268,
+    253
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "groom"
+  },
+  {
+   "z": 60,
+   "id": "3018:599",
+   "name": "image 70",
+   "kind": "art",
+   "src": "6057b",
+   "box": [
+    -152,
+    4117,
+    342.268,
+    253
+   ],
+   "band": "bride"
+  },
+  {
+   "z": 61,
+   "id": "3014:242",
+   "name": "image 10",
+   "kind": "art",
+   "src": "6057b",
+   "box": [
+    378,
+    265,
+    393,
+    290.5
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 62,
+   "id": "3014:243",
+   "name": "image 8",
+   "kind": "art",
+   "src": "fd55b",
+   "box": [
+    -53,
+    209,
+    161.696,
+    173.233
+   ],
+   "inner": [
+    104.408,
+    139.211
+   ],
+   "rot": 31.44,
+   "band": "hero"
+  },
+  {
+   "z": 63,
+   "id": "3014:244",
+   "name": "image 11",
+   "kind": "art",
+   "src": "fd55b",
+   "box": [
+    499.3,
+    205,
+    161.696,
+    173.233
+   ],
+   "inner": [
+    104.408,
+    139.211
+   ],
+   "rot": 148.56,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 64,
+   "id": "3014:245",
+   "name": "image 9",
+   "kind": "art",
+   "src": "0988e",
+   "box": [
+    -134,
+    258,
+    220,
+    335
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 65,
+   "id": "3014:246",
+   "name": "image 12",
+   "kind": "art",
+   "src": "0988e",
+   "box": [
+    522,
+    254,
+    220,
+    335
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 66,
+   "id": "3014:247",
+   "name": "dahlia 1",
+   "kind": "art",
+   "src": "d4127",
+   "box": [
+    -82,
+    314,
+    186.551,
+    166.406
+   ],
+   "inner": [
+    125,
+    156
+   ],
+   "rot": 72.35,
+   "band": "hero"
+  },
+  {
+   "z": 67,
+   "id": "3014:251",
+   "name": "countdown",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 68,
+   "id": "3014:297",
+   "name": "greeting",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 69,
+   "id": "3014:299",
+   "name": "journey together",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 70,
+   "id": "3014:303",
+   "name": "image 28",
+   "kind": "art",
+   "src": "dcd94",
+   "box": [
+    -101,
+    2684,
+    202,
+    526
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 71,
+   "id": "3018:612",
+   "name": "image 72",
+   "kind": "art",
+   "src": "dcd94",
+   "box": [
+    495,
+    3956,
+    202,
+    526
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 72,
+   "id": "3014:327",
+   "name": "And",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 73,
+   "id": "3014:330",
+   "name": "Q.S. Surah",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 74,
+   "id": "3014:332",
+   "name": "ayah",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 75,
+   "id": "3014:337",
+   "name": "succulent 9",
+   "kind": "art",
+   "src": "41a9a",
+   "box": [
+    514,
+    6619,
+    149,
+    181
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 76,
+   "id": "3026:322",
+   "name": "succulent 23",
+   "kind": "art",
+   "src": "41a9a",
+   "box": [
+    -61,
+    4448,
+    149,
+    181
+   ],
+   "band": "bride"
+  },
+  {
+   "z": 77,
+   "id": "3023:168",
+   "name": "succulent 22",
+   "kind": "art",
+   "src": "41a9a",
+   "box": [
+    514,
+    7691,
+    148.221,
+    181
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 78,
+   "id": "3014:339",
+   "name": "image 42",
+   "kind": "art",
+   "src": "bc3ea",
+   "box": [
+    418.96,
+    6541,
+    348.36,
+    454.72
+   ],
+   "inner": [
+    435.614,
+    322
+   ],
+   "rot": -93.55,
+   "band": "akad"
+  },
+  {
+   "z": 79,
+   "id": "3023:169",
+   "name": "image 75",
+   "kind": "art",
+   "src": "bc3ea",
+   "box": [
+    418.96,
+    7613,
+    348.36,
+    454.72
+   ],
+   "inner": [
+    435.614,
+    322
+   ],
+   "rot": -93.55,
+   "band": "resepsi"
+  },
+  {
+   "z": 80,
+   "id": "3014:348",
+   "name": "Open (14) 2",
+   "kind": "art",
+   "src": "f8735",
+   "box": [
+    146,
+    7036,
+    304,
+    304
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "resepsi"
+  },
+  {
+   "z": 81,
+   "id": "3024:282",
+   "name": "Desain tanpa judul (38) 2",
+   "kind": "art",
+   "src": "12633",
+   "box": [
+    -176,
+    13073,
+    438,
+    438
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 82,
+   "id": "3024:295",
+   "name": "Desain tanpa judul (38) 3",
+   "kind": "art",
+   "src": "12633",
+   "box": [
+    347,
+    13073,
+    438,
+    438
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "closing"
+  },
+  {
+   "z": 83,
+   "id": "3014:349",
+   "name": "akad date",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 84,
+   "id": "3014:350",
+   "name": "akad weekday",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 85,
+   "id": "3014:352",
+   "name": "Open (2) 4",
+   "kind": "art",
+   "src": "4f721",
+   "box": [
+    -179,
+    7157,
+    365,
+    365
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "resepsi"
+  },
+  {
+   "z": 86,
+   "id": "3014:364",
+   "name": "pearls 2",
+   "kind": "art",
+   "src": "c6139",
+   "box": [
+    3,
+    8866,
+    303,
+    161
+   ],
+   "fit": "fill",
+   "rot": 180,
+   "fy": true,
+   "band": "dresscode"
+  },
+  {
+   "z": 87,
+   "id": "3014:365",
+   "name": "pearls 3",
+   "kind": "art",
+   "src": "69f9d",
+   "box": [
+    290,
+    8866,
+    303,
+    161
+   ],
+   "fit": "fill",
+   "band": "dresscode"
+  },
+  {
+   "z": 88,
+   "id": "3014:368",
+   "name": "dresscode palette + note",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 89,
+   "id": "3014:375",
+   "name": "gallery oval",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 90,
+   "id": "3014:378",
+   "name": "gallery thumbnails",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 91,
+   "id": "3014:388",
+   "name": "gallery prev plate",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 92,
+   "id": "3014:389",
+   "name": "gallery next plate",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 93,
+   "id": "3014:390",
+   "name": "gallery prev chevron",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 94,
+   "id": "3014:391",
+   "name": "gallery next chevron",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 95,
+   "id": "3014:392",
+   "name": "video slot",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 96,
+   "id": "3014:395",
+   "name": "pearl swag",
+   "kind": "art",
+   "src": "0de6d",
+   "box": [
+    -19,
+    10001,
+    633.209,
+    188
+   ],
+   "fit": "fill",
+   "band": "gallery"
+  },
+  {
+   "z": 97,
+   "id": "3014:396",
+   "name": "gift accounts",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 98,
+   "id": "3014:444",
+   "name": "image 62",
+   "kind": "art",
+   "src": "d1870",
+   "box": [
+    530,
+    10836,
+    148,
+    176
+   ],
+   "band": "gift"
+  },
+  {
+   "z": 99,
+   "id": "3014:445",
+   "name": "image 63",
+   "kind": "art",
+   "src": "d1870",
+   "box": [
+    -82,
+    10836,
+    148,
+    176
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "gift"
+  },
+  {
+   "z": 100,
+   "id": "3014:447",
+   "name": "Open (21) 1",
+   "kind": "art",
+   "src": "c6d30",
+   "box": [
+    244,
+    347,
+    124,
+    124
+   ],
+   "shadow": [
+    0,
+    8,
+    0,
+    "rgba(0, 0, 0, 0.16)"
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 101,
+   "id": "3014:448",
+   "name": "Dresscode",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 102,
+   "id": "3014:449",
+   "name": "Our Dearest Memories",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 103,
+   "id": "3014:450",
+   "name": "Wedding Gift",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 104,
+   "id": "3014:451",
+   "name": "Wedding Wishes",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 105,
+   "id": "3014:452",
+   "name": "Portraits of Affection",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 106,
+   "id": "3014:453",
+   "name": "Scenes from a love story",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 107,
+   "id": "3014:456",
+   "name": "wish field",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 108,
+   "id": "3014:458",
+   "name": "wish Send",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 109,
+   "id": "3014:460",
+   "name": "Show more",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 110,
+   "id": "3014:462",
+   "name": "name field",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 111,
+   "id": "3014:464",
+   "name": "wish date 1",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 112,
+   "id": "3014:465",
+   "name": "wish date 2",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 113,
+   "id": "3014:466",
+   "name": "wish name 1",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 114,
+   "id": "3014:467",
+   "name": "wish name 2",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 115,
+   "id": "3014:468",
+   "name": "wish message 1",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 116,
+   "id": "3014:469",
+   "name": "wish message 2",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 117,
+   "id": "3014:472",
+   "name": "Ellipse 9",
+   "kind": "art",
+   "src": "7ecc3.svg",
+   "box": [
+    130,
+    12369,
+    335.798,
+    148
+   ],
+   "svg": [
+    0,
+    0
+   ],
+   "band": "rsvp"
+  },
+  {
+   "z": 118,
+   "id": "3014:473",
+   "name": "Rsvp",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 119,
+   "id": "3014:474",
+   "name": "rsvp lede",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 120,
+   "id": "3014:476",
+   "name": "rsvp fields",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 121,
+   "id": "3014:486",
+   "name": "rsvp Send",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 122,
+   "id": "3014:495",
+   "name": "closing message",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 123,
+   "id": "3014:496",
+   "name": "Thank You !",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 124,
+   "id": "3014:497",
+   "name": "closing signature",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 125,
+   "id": "3024:308",
+   "name": "With Love,",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 126,
+   "id": "3014:503",
+   "name": "Buat video prewed",
+   "kind": "skip",
+   "why": "the designer's note on the video slot, not copy",
+   "band": null
+  },
+  {
+   "z": 127,
+   "id": "3014:504",
+   "name": "Mask group",
+   "kind": "skip",
+   "why": "empty",
+   "band": null
+  },
+  {
+   "z": 128,
+   "id": "3026:314",
+   "name": "last",
+   "kind": "art",
+   "src": "96422",
+   "box": [
+    -92,
+    14588,
+    779,
+    464
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 129,
+   "id": "3023:173",
+   "name": "Mask group",
+   "kind": "skip",
+   "why": "empty",
+   "band": null
+  },
+  {
+   "z": 130,
+   "id": "3014:507",
+   "name": "akad details",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 131,
+   "id": "3014:509",
+   "name": "akad title",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 132,
+   "id": "3023:219",
+   "name": "image 95",
+   "kind": "art",
+   "src": "1443c",
+   "box": [
+    -5,
+    7397,
+    223,
+    478
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 133,
+   "id": "3018:629",
+   "name": "hero copy",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 134,
+   "id": "3014:535",
+   "name": "credit bar",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 135,
+   "id": "3014:250",
+   "name": "image 20",
+   "kind": "art",
+   "src": "8354a",
+   "box": [
+    512,
+    2724,
+    191,
+    251
+   ],
+   "a": 0.83,
+   "crop": [
+    0,
+    0,
+    100,
+    241.83
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 136,
+   "id": "3018:616",
+   "name": "image 73",
+   "kind": "art",
+   "src": "8354a",
+   "box": [
+    -90,
+    3956,
+    191,
+    251
+   ],
+   "a": 0.83,
+   "crop": [
+    0,
+    0,
+    100,
+    241.83
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 137,
+   "id": "3018:630",
+   "name": "chairs",
+   "kind": "art",
+   "src": "3a898",
+   "box": [
+    200,
+    1777,
+    223.756,
+    296.601
+   ],
+   "band": "countdown"
+  },
+  {
+   "z": 138,
+   "id": "3018:637",
+   "name": "Desain tanpa judul (32) 1",
+   "kind": "art",
+   "src": "2fca4",
+   "box": [
+    342,
+    1407,
+    260,
+    260
+   ],
+   "band": "countdown"
+  },
+  {
+   "z": 139,
+   "id": "3023:196",
+   "name": "image 78",
+   "kind": "art",
+   "src": "8354a",
+   "box": [
+    -93,
+    6981,
+    191,
+    569
+   ],
+   "a": 0.83,
+   "crop": [
+    0,
+    0,
+    100,
+    106.68
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "akad"
+  },
+  {
+   "z": 140,
+   "id": "3023:198",
+   "name": "image 79",
+   "kind": "art",
+   "src": "8354a",
+   "box": [
+    496,
+    6981,
+    191,
+    569
+   ],
+   "a": 0.83,
+   "crop": [
+    0,
+    0,
+    100,
+    106.68
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 141,
+   "id": "3023:208",
+   "name": "image 90",
+   "kind": "art",
+   "src": "6130f",
+   "box": [
+    -34,
+    8675,
+    223,
+    304
+   ],
+   "band": "dresscode"
+  },
+  {
+   "z": 142,
+   "id": "3023:211",
+   "name": "image 91",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    -1,
+    7797,
+    146,
+    442
+   ],
+   "band": "resepsi"
+  },
+  {
+   "z": 143,
+   "id": "3023:214",
+   "name": "image 93",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    0,
+    6684,
+    146,
+    442
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 144,
+   "id": "3023:213",
+   "name": "image 92",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    452,
+    7797,
+    146,
+    442
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "resepsi"
+  },
+  {
+   "z": 145,
+   "id": "3023:215",
+   "name": "image 94",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    450,
+    6684,
+    146,
+    442
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "akad"
+  },
+  {
+   "z": 146,
+   "id": "3023:222",
+   "name": "image 96",
+   "kind": "art",
+   "src": "40310",
+   "box": [
+    399,
+    985,
+    198,
+    373
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 147,
+   "id": "3023:224",
+   "name": "image 97",
+   "kind": "art",
+   "src": "40310",
+   "box": [
+    0,
+    985,
+    198,
+    373
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 148,
+   "id": "3023:227",
+   "name": "image 98",
+   "kind": "art",
+   "src": "91cb7",
+   "box": [
+    -56,
+    2985,
+    545,
+    504
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 149,
+   "id": "3023:229",
+   "name": "image 99",
+   "kind": "art",
+   "src": "91cb7",
+   "box": [
+    101,
+    4252,
+    545,
+    504
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "bride"
+  },
+  {
+   "z": 150,
+   "id": "3023:231",
+   "name": "image 100",
+   "kind": "art",
+   "src": "1443c",
+   "box": [
+    -12,
+    567,
+    223,
+    478
+   ],
+   "band": "hero"
+  },
+  {
+   "z": 151,
+   "id": "3023:233",
+   "name": "image 101",
+   "kind": "art",
+   "src": "1443c",
+   "box": [
+    378,
+    567,
+    223,
+    478
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 152,
+   "id": "3023:244",
+   "name": "image 102",
+   "kind": "art",
+   "src": "277cd",
+   "box": [
+    -176,
+    10556,
+    375,
+    311
+   ],
+   "band": "gift"
+  },
+  {
+   "z": 153,
+   "id": "3023:246",
+   "name": "image 103",
+   "kind": "art",
+   "src": "277cd",
+   "box": [
+    391,
+    10556,
+    375,
+    311
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "gift"
+  },
+  {
+   "z": 154,
+   "id": "3023:247",
+   "name": "image 104",
+   "kind": "art",
+   "src": "6130f",
+   "box": [
+    -60,
+    10663,
+    223,
+    304
+   ],
+   "band": "gift"
+  },
+  {
+   "z": 155,
+   "id": "3023:249",
+   "name": "image 105",
+   "kind": "art",
+   "src": "6130f",
+   "box": [
+    433,
+    10663,
+    223,
+    304
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "gift"
+  },
+  {
+   "z": 156,
+   "id": "3023:251",
+   "name": "image 91",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    -3,
+    11904,
+    146,
+    442
+   ],
+   "band": "rsvp"
+  },
+  {
+   "z": 157,
+   "id": "3023:252",
+   "name": "image 92",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    450,
+    11904,
+    146,
+    442
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "rsvp"
+  },
+  {
+   "z": 158,
+   "id": "3024:286",
+   "name": "image 110",
+   "kind": "art",
+   "src": "e2947",
+   "box": [
+    453,
+    5841,
+    245,
+    349
+   ],
+   "band": "akad"
+  },
+  {
+   "z": 159,
+   "id": "3024:287",
+   "name": "image 111",
+   "kind": "art",
+   "src": "e2947",
+   "box": [
+    -99,
+    5841,
+    245,
+    349
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "akad"
+  },
+  {
+   "z": 160,
+   "id": "3024:289",
+   "name": "image 112",
+   "kind": "art",
+   "src": "bc3ea",
+   "box": [
+    -168,
+    13187,
+    258.369,
+    337.254
+   ],
+   "inner": [
+    323.084,
+    238.819
+   ],
+   "rot": -93.55,
+   "band": "closing"
+  },
+  {
+   "z": 161,
+   "id": "3024:291",
+   "name": "image 113",
+   "kind": "art",
+   "src": "bc3ea",
+   "box": [
+    505,
+    13187,
+    258.369,
+    337.254
+   ],
+   "inner": [
+    323.084,
+    238.819
+   ],
+   "rot": -86.45,
+   "fy": true,
+   "band": "closing"
+  },
+  {
+   "z": 162,
+   "id": "3024:292",
+   "name": "image 110",
+   "kind": "art",
+   "src": "e2947",
+   "box": [
+    466,
+    13286,
+    273.08,
+    389
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 163,
+   "id": "3024:293",
+   "name": "image 111",
+   "kind": "art",
+   "src": "e2947",
+   "box": [
+    -140,
+    13287,
+    273.08,
+    389
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "closing"
+  },
+  {
+   "z": 164,
+   "id": "3024:301",
+   "name": "Desain tanpa judul (39) 1",
+   "kind": "art",
+   "src": "69eff",
+   "box": [
+    -109,
+    13304,
+    213,
+    213
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 165,
+   "id": "3024:303",
+   "name": "Desain tanpa judul (39) 2",
+   "kind": "art",
+   "src": "69eff",
+   "box": [
+    473.73,
+    13303,
+    213,
+    213
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "closing"
+  },
+  {
+   "z": 166,
+   "id": "3024:304",
+   "name": "Rectangle 157",
+   "kind": "art",
+   "src": "baca6",
+   "box": [
+    134.0035,
+    13782,
+    333.913,
+    512
+   ],
+   "radius": 192.146,
+   "shadow": [
+    0,
+    4,
+    4,
+    "rgba(0, 0, 0, 0.78)"
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 167,
+   "id": "3024:306",
+   "name": "Rectangle 158",
+   "kind": "art",
+   "src": "5ec46",
+   "box": [
+    149.2345,
+    13797.23,
+    303.451,
+    482.709
+   ],
+   "radius": 181.154,
+   "crop": [
+    -12.2,
+    -79.89,
+    230.87,
+    192.76
+   ],
+   "inset": [
+    0,
+    4,
+    4,
+    "rgba(0, 0, 0, 0.52)"
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 168,
+   "id": "3024:307",
+   "name": "Rectangle 159",
+   "kind": "art",
+   "src": "aa5f7",
+   "box": [
+    149.2345,
+    13797.23,
+    303.451,
+    482.709
+   ],
+   "radius": 181.154,
+   "crop": [
+    -43.25,
+    9.68,
+    193.71,
+    124.98
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 169,
+   "id": "3023:279",
+   "name": "Desain tanpa judul (37) 1",
+   "kind": "art",
+   "src": "b2670",
+   "box": [
+    410,
+    13971,
+    116,
+    116
+   ],
+   "shadow": [
+    0,
+    4,
+    6.4,
+    "rgba(0, 0, 0, 0.33)"
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 170,
+   "id": "3024:310",
+   "name": "image 91",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    -3,
+    13417,
+    146,
+    442
+   ],
+   "band": "closing"
+  },
+  {
+   "z": 171,
+   "id": "3024:311",
+   "name": "image 92",
+   "kind": "art",
+   "src": "6782a",
+   "box": [
+    450,
+    13417,
+    146,
+    442
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "closing"
+  },
+  {
+   "z": 172,
+   "id": "3026:318",
+   "name": "image 115",
+   "kind": "art",
+   "src": "1443c",
+   "box": [
+    388,
+    3403,
+    223,
+    478
+   ],
+   "rot": 180,
+   "fy": true,
+   "band": "groom"
+  },
+  {
+   "z": 173,
+   "id": "3026:320",
+   "name": "image 116",
+   "kind": "art",
+   "src": "1443c",
+   "box": [
+    -10,
+    3403,
+    223,
+    478
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 174,
+   "id": "3026:323",
+   "name": "succulent 24",
+   "kind": "art",
+   "src": "41a9a",
+   "box": [
+    513,
+    3496,
+    149,
+    181
+   ],
+   "band": "groom"
+  },
+  {
+   "z": 175,
+   "id": "3026:331",
+   "name": "dahlia 2",
+   "kind": "art",
+   "src": "d4127",
+   "box": [
+    499,
+    314,
+    186.551,
+    166.406
+   ],
+   "inner": [
+    125,
+    156
+   ],
+   "rot": 107.65,
+   "fy": true,
+   "band": "hero"
+  },
+  {
+   "z": 176,
+   "id": "3014:274",
+   "name": "first person details",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 177,
+   "id": "3026:332",
+   "name": "Heading 3",
+   "kind": "skip",
+   "why": "an empty heading frame",
+   "band": null
+  },
+  {
+   "z": 178,
+   "id": "3026:333",
+   "name": "first call name",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 179,
+   "id": "3026:339",
+   "name": "second person details",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 180,
+   "id": "3026:349",
+   "name": "second call name",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 181,
+   "id": "3026:350",
+   "name": "resepsi date",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 182,
+   "id": "3026:351",
+   "name": "resepsi weekday",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 183,
+   "id": "3026:363",
+   "name": "resepsi details",
+   "kind": "live",
+   "band": null
+  },
+  {
+   "z": 184,
+   "id": "3026:381",
+   "name": "Desain tanpa judul (36) 1",
+   "kind": "art",
+   "src": "84df4",
+   "box": [
+    213,
+    5683,
+    169,
+    90
+   ],
+   "band": "quote"
+  }
+ ],
+ "assets": {
+  "f8735": "date-cartouche",
+  "184a6": "tree-small",
+  "73d06": "tree-tall",
+  "baca6": "paper",
+  "5ec46": "toile",
+  "849b0": "oval-florals",
+  "e7302": "tree-edge",
+  "c941e": "rsvp-cabinet",
+  "827a3": "garden-path",
+  "0e159": "valley",
+  "8f2fc": "mirror-frame",
+  "c7a3d": "hedge",
+  "27873": "castle",
+  "663eb": "garden-steps",
+  "1010a": "meadow",
+  "009a5": "floral-border-a",
+  "0f49d": "floral-border-b",
+  "807af": "set-table",
+  "6782a": "amaranthus",
+  "6ce53": "shield-frame",
+  "b83f0": "floral-crown",
+  "b95fe": "bride",
+  "cc286": "groom",
+  "bbdfd": "envelope",
+  "b9e5e": "event-card",
+  "c252d": "event-decor",
+  "a07a5": "event-frame",
+  "c1dc5": "lace",
+  "16cce": "iris",
+  "dfc84": "orchid",
+  "4696f": "hero-toile",
+  "8224e": "hero-couple",
+  "7f9ae": "hero-frame",
+  "6057b": "sweet-pea",
+  "fd55b": "trumpet-flower",
+  "0988e": "lily-stem",
+  "d4127": "dahlia",
+  "dcd94": "vine",
+  "41a9a": "succulent",
+  "bc3ea": "leafy-vine",
+  "12633": "candelabra",
+  "4f721": "lace-motif",
+  "c6139": "pearls-a",
+  "69f9d": "pearls-b",
+  "0de6d": "pearl-swag",
+  "d1870": "lilies",
+  "c6d30": "wax-seal",
+  "96422": "banquet",
+  "1443c": "side-florals",
+  "8354a": "tree-edge-b",
+  "3a898": "chairs",
+  "2fca4": "bouquet",
+  "6130f": "peony",
+  "40310": "roses-corner",
+  "91cb7": "flower-bed",
+  "277cd": "dahlias",
+  "e2947": "peony-bouquet",
+  "69eff": "hydrangea",
+  "aa5f7": "photo-closing",
+  "b2670": "heart-seal",
+  "84df4": "divider",
+  "2eccc": "photo-gallery-1",
+  "be91f": "photo-gallery-2",
+  "c0f62": "photo-gallery-3",
+  "ef39e": "photo-gallery-4",
+  "e16f7.svg": "glow-castle",
+  "b5138.svg": "glow-castle",
+  "747e3.svg": "glow-closing-a",
+  "58caf.svg": "glow-closing-b",
+  "0a28a.svg": "glow-closing-c",
+  "a82ac.svg": "glow-card",
+  "7ecc3.svg": "rsvp-plate",
+  "b24b1.svg": "chevron",
+  "497ba.svg": "chevron"
+ }
+}

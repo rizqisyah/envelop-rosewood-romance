@@ -1,0 +1,171 @@
+/* Frame 271 (3014:538) the cover, and Frame 270 (3014:151) the invitation sheet. */
+@import "@fontsource/cormorant-infant/300.css";
+@import "@fontsource/cormorant-infant/400.css";
+@import "@fontsource/cormorant-infant/600.css";
+@import "@fontsource/lancelot/400.css";
+@import "@fontsource/pinyon-script/400.css";
+@import "@fontsource/ibarra-real-nova/400.css";
+@import "@fontsource/ibarra-real-nova/400-italic.css";
+@import "@fontsource/ibarra-real-nova/600.css";
+@import "@fontsource/ibarra-real-nova/700.css";
+@import "@fontsource/cinzel/700.css";
+@import "@fontsource/bellefair/400.css";
+@import "@fontsource/eb-garamond/400.css";
+@import "@fontsource/abhaya-libre/800.css";
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/tinos/400.css";
+@import "./style/tokens.css";
+
+/*
+ * The script face of both frames: the titles, the names, the closing. Self-hosted rather
+ * than CDN so it survives the CSP and works offline.
+ *
+ * LICENSE: demo/personal-use cut. Shipping this template commercially needs the paid
+ * family. Swapping it is one url() here -- the metrics are the same.
+ */
+@font-face {
+  font-family: "Roben Elegante";
+  src: url("./assets/fonts/roben-elegante-script.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Activists: "journey together" (3014:299) as authored. Its lowercase are cap-height forms,
+ * so the design's lowercase strings draw as the render's capitals with no text-transform --
+ * do not add one.
+ *
+ * Perpetua: the salam (3014:298). Rose Gard: "And" (3014:327). Kaleagnetta: the event-card
+ * headings (3014:509, 3026:376). All three are the design's own faces.
+ *
+ * LICENSE: demo/personal-use cuts like Roben Elegante above -- check before shipping commercially.
+ */
+@font-face {
+  font-family: "Activists";
+  src: url("./assets/fonts/activists-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Perpetua";
+  src: url("./assets/fonts/Perpetua-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rose Gard";
+  src: url("./assets/fonts/rose-gard.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kaleagnetta";
+  src: url("./assets/fonts/Kaleagnetta.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Every band of the sheet is the same shape: art from BandArt.vue, and live copy positioned
+ * over it in design px. These rules are global rather than repeated in each band's scoped
+ * block, so a section's own stylesheet carries nothing but its nodes' coordinates.
+ *
+ * `> *:not(.band-art)` rather than a class per node: BandArt's layers are the only children
+ * a band does not place itself, and they set their own z inline.
+ */
+.band {
+  position: relative;
+}
+
+.band > *:not(.band-art) {
+  /* Above every layer unless the node sets its own Figma z. */
+  z-index: 900;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(calc(24 * var(--px)));
+  transition:
+    opacity 1200ms cubic-bezier(0.16, 1, 0.3, 1) var(--delay, 0ms),
+    transform 1600ms cubic-bezier(0.16, 1, 0.28, 1) var(--delay, 0ms);
+}
+
+.band.is-in > *:not(.band-art) {
+  opacity: 1;
+  transform: none;
+}
+
+/*
+ * The one-line nodes. A box that auto-sizes to its text in Figma has no spare width once
+ * --px rounds it at an arbitrary viewport, and a line that wraps lands on the row below.
+ * Only nodes that are ONE line in the design belong here; the wrapping paragraphs must keep
+ * wrapping at their declared width.
+ */
+.one-line {
+  white-space: nowrap;
+}
+
+/*
+ * Motion this large is exactly what a vestibular disorder cannot tolerate, so the
+ * reduced-motion path is not a shortened version of it -- it is no movement at all.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .band > *:not(.band-art) {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* While the cover owns the screen nothing scrolls -- see App.vue's `isLocked`. */
+html.is-cover-locked,
+html.is-cover-locked body {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  background: var(--paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
