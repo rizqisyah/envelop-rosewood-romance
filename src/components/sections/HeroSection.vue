@@ -29,11 +29,12 @@ const fitCouple = useFitText()
 
 /*
  * 3014:220 (the toile) and 3014:221 (the couple) fill Frame 2's plate. A live photo takes
- * both their places, cut to the plate's own outline: the toile's alpha IS that outline, so
- * it serves as the mask and the photo lands exactly where the design's couple stands.
+ * the couple's place only -- the toile stays behind it, fixed, so a cut-out photo stands on
+ * it like the design's couple. It is cut to the plate's own outline: the toile's alpha IS
+ * that outline, so it serves as the mask and the photo lands where the couple stands.
  */
 const PLATE = { x: 80, y: 409, w: 437, h: 688 }
-const skipLayers = computed(() => (customHeroPhoto.value ? ['3014:220', '3014:221'] : []))
+const skipLayers = computed(() => (customHeroPhoto.value ? ['3014:221'] : []))
 const plateMask = `url("${art['hero-toile.webp']}")`
 const photoStyle = computed(() => ({
   objectPosition: `${fotoMempelaiTransform.value.x}% ${fotoMempelaiTransform.value.y}%`,
