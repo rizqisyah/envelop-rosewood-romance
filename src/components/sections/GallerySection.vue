@@ -246,7 +246,7 @@ const poster = art['photo-gallery-4.webp']
               :key="photos[active]?.src"
               :src="photos[active]?.src"
               :class="{ 'is-design': photos[active]?.design }"
-              :alt="photos[active]?.caption || 'Couple photo'"
+              alt="Couple photo"
               decoding="async"
               draggable="false"
             />
@@ -338,8 +338,8 @@ const poster = art['photo-gallery-4.webp']
             ‹
           </button>
           <div class="gallery__lb-body" @click.self="closeZoom">
-            <img :src="photos[active]?.src" :alt="photos[active]?.caption || `Photo ${active + 1}`" class="gallery__lb-img" />
-            <p v-if="photos[active]?.caption" class="gallery__lb-caption">{{ photos[active].caption }}</p>
+            <!-- No caption: the dashboard fills it with the uploaded file's name. -->
+            <img :src="photos[active]?.src" :alt="`Photo ${active + 1}`" class="gallery__lb-img" />
           </div>
           <button
             v-if="photos.length > 1"
@@ -539,11 +539,16 @@ const poster = art['photo-gallery-4.webp']
   transition: scale 240ms ease;
 }
 
+/*
+ * clip-path, not just radius + overflow: iOS Safari drops a rounded overflow clip under the
+ * button's `filter`, and the thumbnails came out as rectangles.
+ */
 .gallery__thumb-mask {
   position: absolute;
   inset: 0;
   border-radius: 50%;
   overflow: hidden;
+  clip-path: ellipse(50% 50% at 50% 50%);
   background: #d9d9d9;
 }
 
@@ -607,14 +612,6 @@ const poster = art['photo-gallery-4.webp']
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
   animation: lb-pop 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
   cursor: default;
-}
-
-.gallery__lb-caption {
-  margin-top: 14px;
-  color: #f6e3cf;
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  text-align: center;
 }
 
 .gallery__lb-btn {
